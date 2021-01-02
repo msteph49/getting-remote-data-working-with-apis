@@ -11,6 +11,9 @@ class GetPrograms
     response = Net::HTTP.get_response(uri)
     response.body
   end
+  def program_school
+    
+  end
 
 end
 
